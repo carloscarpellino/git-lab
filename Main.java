@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("prova esperimento");
+        String nome = args[0].trim();
+        
+        System.out.println("Buongorno " + nome);
     }
 }
